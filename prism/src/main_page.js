@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './assets/icon.png';
 import './App.css';
 import StoryElement from './StoryElement';
+import {Link} from 'react-router-dom';
 
 export default class MainPage extends Component {
   render() {
@@ -12,13 +13,10 @@ export default class MainPage extends Component {
 
     return (
       <div className="App mainpage" >
-          <div className="navbar">
-          <img src={logo}  className="App-logo" alt="logo" />
-        </div>
-        <div style={{marginTop: 200}}>
-          <p className="bigfont" style={{'margin-top': 20}} > View Stories </p>
+         <p className="title"> PRISM </p>
+          <p className="bigfont" > View Stories </p>
          {elements}
-         </div>
+         
       </div>
     );
   }

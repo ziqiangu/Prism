@@ -8,7 +8,8 @@ export default class StoryElement extends Component {
     return (
       <div className="element-container">
           <p className="bigfont" > Title or Premise of the Story Goes Here </p>
-          <p> Number of Words Remaining </p>
+          <hr />
+          <p className="bigfont"> Number of Words Remaining </p>
       </div>
     );
   }
