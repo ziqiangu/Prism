@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './assets/icon.png';
 import './App.css';
 import Login from './login.js';
+import MainPage from './main_page.js';
 import {
     BrowserRouter as Router,
     Route,
@@ -14,7 +15,7 @@ class App extends Component {
         <Router>
             <div>
                 <Route exact path="/" component={Login} />
-                <Route path="/main" component={Login} />
+                <Route path="/main" component={MainPage} />
             </div>
         </Router>
   

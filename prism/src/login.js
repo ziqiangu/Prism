@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './assets/icon.png';
 import './App.css';
+import { Link } from 'react-router-dom';
 
 export default class Login extends Component {
   render() {
@@ -12,7 +13,9 @@ export default class Login extends Component {
         </header>
         <input className="login" type="text" placeholder="Username"/> <br />
         <input className="login" type="text" placeholder="Password" />  <br />
-        <input className="login-button" type="submit" value="Login" />
+        <Link to="/main">
+          <input className="login-button" type="submit" value="Login" />
+        </Link>
         
       </div>
     );
