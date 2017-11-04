@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  background-color: white;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  margin-top: 100px;
+  height: 150px;
+  padding: 20px;
+  color: #C62828;
+}
+.login {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  margin: 20px;
+  border-radius: 3px;
+  background-color: white;
+  outline: 0px;
+  width: 200px;
+  padding: 5px;
+  border-width: 0px;
+  border-bottom-color: black;
+  border-bottom-width: 1px;
+
+}
+.login-button {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  margin: 20px;
+  border-radius: 3px;
+  background-color: white;
+  outline: 0px;
+  padding: 5px;
+  border-width: 1px;
+  border-color: black;
+  width: 200px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
