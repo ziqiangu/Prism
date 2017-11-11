@@ -18,6 +18,8 @@
 --
 -- Table structure for table `entries`
 --
+CREATE DATABASE  IF NOT EXISTS `PRISM` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `PRISM`;
 
 DROP TABLE IF EXISTS `entries`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;

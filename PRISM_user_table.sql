@@ -17,7 +17,8 @@
 
 --
 -- Table structure for table `user_table`
---
+CREATE DATABASE  IF NOT EXISTS `PRISM` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `PRISM`;
 
 DROP TABLE IF EXISTS `user_table`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
